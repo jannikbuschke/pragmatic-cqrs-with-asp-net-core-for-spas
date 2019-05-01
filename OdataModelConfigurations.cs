@@ -1,4 +1,4 @@
-using Microsoft.AspNet.OData.Builder;
+﻿using Microsoft.AspNet.OData.Builder;
 using Microsoft.AspNetCore.Mvc;
 using System.Collections.Generic;
 
