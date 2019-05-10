@@ -1,8 +1,11 @@
-<Project Sdk="Microsoft.NET.Sdk.Web">
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
 
   <PropertyGroup>
     <TargetFramework>netcoreapp2.2</TargetFramework>
     <AspNetCoreHostingModel>InProcess</AspNetCoreHostingModel>
+    <AssemblyName>Samples</AssemblyName>
+    <RootNamespace>Samples</RootNamespace>
+    <PackageId>Sample1</PackageId>
   </PropertyGroup>
 
   <ItemGroup>

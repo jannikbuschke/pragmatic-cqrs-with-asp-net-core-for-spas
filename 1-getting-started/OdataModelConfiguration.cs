@@ -2,10 +2,10 @@
 using Microsoft.AspNetCore.Mvc;
 using System.Collections.Generic;
 
-namespace MyApp
+namespace Sample
 {
 
-    public class OdataModelConfigurations : IModelConfiguration
+    public class OdataModelConfiguration : IModelConfiguration
     {
         public void Apply(ODataModelBuilder builder, ApiVersion apiVersion)
         {
