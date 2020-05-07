@@ -1,19 +1,9 @@
-﻿using MediatR;
-using Microsoft.AspNet.OData;
+﻿using Microsoft.AspNet.OData;
 using System;
 using System.Linq;
 
 namespace Sample
 {
-
-    public class DeletePerson : IRequest
-    {
-        /// <summary>
-        /// Id of the person
-        /// </summary>
-        public Guid Id { get; set; }
-    }
-
     public class PersonsController : ODataController
     {
         private readonly DataContext ctx;
