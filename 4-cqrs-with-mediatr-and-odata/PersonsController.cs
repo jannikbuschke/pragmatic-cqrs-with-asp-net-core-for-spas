@@ -14,13 +14,13 @@ namespace Sample
         }
 
         [EnableQuery]
-        public SingleResult<Person> GetPerson(Guid key)
+        public SingleResult<Person> Get(Guid key)
         {
             return new SingleResult<Person>(ctx.Persons.Where(v => v.Id == key));
         }
 
         [EnableQuery]
-        public IQueryable<Person> GetPersons()
+        public IQueryable<Person> Get()
         {
             return ctx.Persons;
         }
