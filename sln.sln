@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 15
-VisualStudioVersion = 15.0.28307.645
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30114.105
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Sample2", "2-enable-query-for-web-api\Sample2.csproj", "{2CE0B0FF-3880-483E-B45B-1F6F37ACECF6}"
 EndProject
@@ -10,6 +10,8 @@ EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Sample3", "3-expose-validation\Sample3.csproj", "{0B8409AC-B71E-4FEC-BF09-E357982B66C6}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Sample4", "4-cqrs-with-mediatr-and-odata\Sample4.csproj", "{700B9F29-F0F0-4B6C-A378-02CF46F27561}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Sample5", "5-shallow-and-deep-validation\Sample5.csproj", "{4807E5AA-E073-4934-9B31-A879352A45E3}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +35,10 @@ Global
 		{700B9F29-F0F0-4B6C-A378-02CF46F27561}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{700B9F29-F0F0-4B6C-A378-02CF46F27561}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{700B9F29-F0F0-4B6C-A378-02CF46F27561}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4807E5AA-E073-4934-9B31-A879352A45E3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4807E5AA-E073-4934-9B31-A879352A45E3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4807E5AA-E073-4934-9B31-A879352A45E3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4807E5AA-E073-4934-9B31-A879352A45E3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
